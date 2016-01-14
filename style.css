@@ -1,1 +1,332 @@
 /* Add your CSS here */
+
+/*GLOBAL*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    height: 100vh;
+    margin: 0 auto;
+    position: relative;
+}
+/*HEADER*/
+header {
+    display: inline-block;
+    width: 100%;
+    height: 6%;
+    background-color: #fffabe;
+}
+
+.logo {
+    position: relative;
+    left: 30px;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+.nav {
+    float: right;
+    display: inline-block;
+    height: 100%;
+    width: 65%;
+    margin: 0;
+    text-align: justify;
+}
+
+.nav li {
+    display: inline;
+    padding-right: 35px;
+    height: 100%;
+    width: 20%;
+    list-style: none;
+}
+
+.nav li a {
+    position: relative;
+    display: inline-block;
+    top:50%;
+    transform: translateY(-50%);
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #515151;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav li a:hover {
+    color: #d42551;
+}
+
+
+#heroImage {
+    width: 100%;
+    height: 33%;
+    background-image: url("assets/images/welcome-image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*MAIN CONTENT SECTION*/
+#mainContent {
+    width: 100%;
+    height: 37%;
+}
+
+#mainContent aside {
+    display: inline-block;
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+
+#mainContent aside img {
+    position: relative;
+    max-width: 80%;
+    max-height: 90%;
+    left: 30px;
+    top:50%;
+    transform: translateY(-50%);
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#mainContent article {
+    display: inline-block;
+    height: 100%;
+    width: 75%;
+    float: right;
+    box-sizing: border-box;
+    padding: 20px 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#mainContent article h3 {
+    font-size: 20px;
+    color: #6a6969;
+}
+
+#mainContent article p {
+    font-size: 14px;
+    color: #6a6969;
+}
+
+
+
+
+
+
+
+
+#table {
+    width: 100%;
+    height: 17%;
+}
+ #table h3 {
+     display: inline-block;
+     width: 100%;
+     height: 15%;
+     position: relative;
+     top: 0;
+     margin: 0;
+     text-align: center;
+     color: #6a6969;
+ }
+
+table {
+    height: 85%;
+    width: 100%;
+    empty-cells: show;
+    border-collapse: separate;
+    border-spacing: 10px 0;
+    box-sizing: border-box;
+    padding: 15px 0;
+}
+
+th, td {
+    background-color: #fffabe;
+    color: #6a6969;
+    width: 14%;
+    padding: 5px;
+}
+
+th {
+    text-align: left;
+    font-size: 14px;
+    padding: 5px;
+}
+
+td {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/*MACARON FLAVOR CLASSES*/
+
+/*First Row*/
+.chocolate {
+    background: url("assets/images/chocolate.png")no-repeat;
+    background-position: 90% 50%;
+    background-size: 15%;
+    background-color: #fffabe;
+}
+
+.violetCassis {
+     background: url("assets/images/violet-cassis.png")no-repeat;
+     background-position: 90% 50%;
+     background-size: 15%;
+     background-color: #fffabe;
+}
+
+.passionFruit {
+    background: url("assets/images/passion-fruit.png")no-repeat;
+    background-position: 90% 50%;
+    background-size: 15%;
+    background-color: #fffabe;
+}
+
+.coffee {
+    background: url("assets/images/coffee.png")no-repeat;
+    background-position: 90% 50%;
+    background-size: 15%;
+    background-color: #fffabe;
+}
+
+.raspbery {
+    background: url("assets/images/raspbery.png")no-repeat;
+    background-position: 90% 50%;
+    background-size: 15%;
+    background-color: #fffabe;
+}
+
+.rose {
+    background: url("assets/images/rose.png")no-repeat;
+    background-position: 90% 50%;
+    background-size: 15%;
+    background-color: #fffabe;
+}
+
+.carmel {
+    background: url("assets/images/caramel.png")no-repeat;
+    background-position: 90% 50%;
+    background-size: 15%;
+    background-color: #fffabe;
+}
+
+/*Second Row*/
+.coconut {
+     background: url("assets/images/coconut.png")no-repeat;
+     background-position: 90% 50%;
+     background-size: 15%;
+     background-color: #824603;
+     color: #FFF;
+ }
+
+.greenTea {
+    background: url("assets/images/green-tea.png")no-repeat;
+    background-position: 90% 50%;
+    background-size: 15%;
+    background-color: #fffabe;
+}
+
+.vanilla {
+    background: url("assets/images/vanilla.png")no-repeat;
+    background-position: 90% 50%;
+    background-size: 15%;
+    background-color: #df5277;
+    color: #FFF;
+}
+
+.pistachio {
+    background: url("assets/images/pistachio.png")no-repeat;
+    background-position: 90% 50%;
+    background-size: 15%;
+    background-color: #fffabe;
+}
+
+.lemon {
+    background: url("assets/images/lemon.png")no-repeat;
+    background-position: 90% 50%;
+    background-size: 15%;
+    background-color: #a2304e;
+    color: #FFF;
+}
+
+.tiffanyBlue {
+    background: url("assets/images/tiffany-blue.png")no-repeat;
+    background-position: 90% 50%;
+    background-size: 15%;
+    background-color: #fffabe;
+}
+
+.almond {
+    background: url("assets/images/almond.png")no-repeat;
+    background-position: 90% 50%;
+    background-size: 15%;
+    background-color: #c39005;
+    color: #FFF;
+}
+
+
+
+
+footer {
+    height: 7%;
+    width: 100%;
+    background-color: #df5277;
+    font-size: 10px;
+    color: #fff;
+}
+
+footer div {
+    display: inline-block;
+    width: 100%;
+}
+
+footer p {
+    text-align: center;
+}
+
+.contacts {
+    list-style: none;
+    display: inline-block;
+    width: 100%;
+    height: 50%;
+    padding: 0;
+    margin:15px 0;
+    text-align: center;
+}
+
+.contacts li {
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 40px;
+    margin-right: 20px;
+}
+
+.contacts li:last-child {
+    padding-right: 80px;
+}
+
+
+#phone {
+    background-image: url("assets/images/phone.png");
+    background-repeat: no-repeat;
+
+}
+
+#email {
+    background-image: url("assets/images/mail.png");
+    background-repeat: no-repeat;
+}
+
+#socialMedia {
+    background-image: url("assets/images/facebook.png"),url("assets/images/twitter.png");
+    background-position: right;
+    background-repeat: no-repeat, no-repeat;
+}
