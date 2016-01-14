@@ -1,11 +1,10 @@
 /* Add your CSS here */
 
 /*GLOBAL*/
-
 body {
+    font-size: 100%;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 .container {
     max-width: 1000px;
     height: 100vh;
@@ -19,63 +18,50 @@ header {
     height: 6%;
     background-color: #fffabe;
 }
-
 .logo {
     position: relative;
-    left: 30px;
+    left: 3%;
     top:50%;
     transform: translateY(-50%);
 }
-
 .nav {
     float: right;
     display: inline-block;
     height: 100%;
     width: 65%;
     margin: 0;
-    text-align: justify;
 }
-
 .nav li {
     display: inline;
-    padding-right: 35px;
+    padding-right: 3.5%;
     height: 100%;
-    width: 20%;
+    width: 10%;
     list-style: none;
 }
-
 .nav li a {
     position: relative;
     display: inline-block;
-    top:50%;
+    top:40%;
     transform: translateY(-50%);
     text-decoration: none;
     text-transform: uppercase;
     color: #515151;
-    font-size: 16px;
+    font-size: 1em;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 .nav li a:hover {
     color: #d42551;
 }
-
 #heroImage {
     width: 100%;
     height: 33%;
-    background-image: url("assets/images/welcome-image.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url("assets/images/welcome-image.png")no-repeat center/cover;
 }
-
-
 /*MAIN CONTENT SECTION*/
 #mainContent {
     width: 100%;
     height: 37%;
 }
-
 #mainContent aside {
     display: inline-block;
     float: left;
@@ -86,39 +72,33 @@ header {
     position: relative;
     max-width: 80%;
     max-height: 90%;
-    left: 30px;
+    left: 12.5%;
     top:50%;
     transform: translateY(-50%);
-    overflow: hidden;
-    text-overflow: ellipsis;
 }
-
 #mainContent article {
     display: inline-block;
     height: 100%;
     width: 75%;
     float: right;
     box-sizing: border-box;
-    padding: 20px 15px;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    padding: 2% 1.5%;
+    /*overflow: hidden;*/
+    /*text-overflow: ellipsis;*/
 }
-
 #mainContent article h3 {
-    font-size: 20px;
+    font-size: 125%;
     color: #6a6969;
 }
-
 #mainContent article p {
-    font-size: 14px;
+    font-size: 87.5%;
     color: #6a6969;
 }
-
-#table {
+#menuTable {
     width: 100%;
     height: 17%;
 }
- #table h3 {
+ #menuTable h3 {
      display: inline-block;
      width: 100%;
      height: 15%;
@@ -128,7 +108,6 @@ header {
      text-align: center;
      color: #6a6969;
  }
-
 table {
     height: 85%;
     width: 100%;
@@ -138,151 +117,92 @@ table {
     box-sizing: border-box;
     padding: 15px 0;
 }
-
 th, td {
     background-color: #fffabe;
     color: #6a6969;
     width: 14%;
     padding: 5px;
 }
-
 th {
     text-align: left;
-    font-size: 14px;
+    font-size: 0.875em;
     padding: 5px;
 }
-
 td {
-    font-size: 12px;
+    font-size: .75em;
     font-weight: 600;
 }
-
 /*MACARON FLAVOR CLASSES*/
-
 /*First Row*/
 .chocolate {
-    background: url("assets/images/chocolate.png")no-repeat;
-    background-position: 90% 50%;
-    background-size: 15%;
-    background-color: #fffabe;
+    background: #fffabe url("assets/images/chocolate.png") no-repeat 90% 50%/15%;
 }
 
 .violetCassis {
-     background: url("assets/images/violet-cassis.png")no-repeat;
-     background-position: 90% 50%;
-     background-size: 15%;
-     background-color: #fffabe;
+     background:#fffabe url("assets/images/violet-cassis.png")no-repeat 90% 50%/15%;
 }
 
 .passionFruit {
-    background: url("assets/images/passion-fruit.png")no-repeat;
-    background-position: 90% 50%;
-    background-size: 15%;
-    background-color: #fffabe;
+    background:#fffabe url("assets/images/passion-fruit.png")no-repeat 90% 50%/15%;
 }
 
 .coffee {
-    background: url("assets/images/coffee.png")no-repeat;
-    background-position: 90% 50%;
-    background-size: 15%;
-    background-color: #fffabe;
+    background:#fffabe url("assets/images/coffee.png")no-repeat 90% 50%/15%;
 }
 
 .raspbery {
-    background: url("assets/images/raspbery.png")no-repeat;
-    background-position: 90% 50%;
-    background-size: 15%;
-    background-color: #fffabe;
+    background:#fffabe url("assets/images/raspbery.png")no-repeat 90% 50%/15%;
 }
 
 .rose {
-    background: url("assets/images/rose.png")no-repeat;
-    background-position: 90% 50%;
-    background-size: 15%;
-    background-color: #fffabe;
+    background:#fffabe url("assets/images/rose.png")no-repeat 90% 50%/15%;
 }
 
 .carmel {
-    background: url("assets/images/caramel.png")no-repeat;
-    background-position: 90% 50%;
-    background-size: 15%;
-    background-color: #fffabe;
+    background:#fffabe url("assets/images/caramel.png")no-repeat 90% 50%/15%;
 }
-
 /*Second Row*/
 .coconut {
-     background: url("assets/images/coconut.png")no-repeat;
-     background-position: 90% 50%;
-     background-size: 15%;
-     background-color: #824603;
+    background:#824603 url("assets/images/coconut.png")no-repeat 90% 50%/15%;
      color: #FFF;
  }
-
 .greenTea {
-    background: url("assets/images/green-tea.png")no-repeat;
-    background-position: 90% 50%;
-    background-size: 15%;
-    background-color: #fffabe;
+    background:#fffabe url("assets/images/green-tea.png")no-repeat 90% 50%/15%;
 }
-
 .vanilla {
-    background: url("assets/images/vanilla.png")no-repeat;
-    background-position: 90% 50%;
-    background-size: 15%;
-    background-color: #df5277;
+    background:#df5277 url("assets/images/vanilla.png")no-repeat 90% 50%/15%;
     color: #FFF;
 }
-
 .pistachio {
-    background: url("assets/images/pistachio.png")no-repeat;
-    background-position: 90% 50%;
-    background-size: 15%;
-    background-color: #fffabe;
+    background:#fffabe url("assets/images/pistachio.png")no-repeat 90% 50%/15%;
 }
-
 .lemon {
-    background: url("assets/images/lemon.png")no-repeat;
-    background-position: 90% 50%;
-    background-size: 15%;
-    background-color: #a2304e;
+    background:#a2304e url("assets/images/lemon.png")no-repeat 90% 50%/15%;
     color: #FFF;
 }
-
 .tiffanyBlue {
-    background: url("assets/images/tiffany-blue.png")no-repeat;
-    background-position: 90% 50%;
-    background-size: 15%;
-    background-color: #fffabe;
+    background:#fffabe url("assets/images/tiffany-blue.png")no-repeat 90% 50%/15%;
 }
-
 .almond {
-    background: url("assets/images/almond.png")no-repeat;
-    background-position: 90% 50%;
-    background-size: 15%;
-    background-color: #c39005;
+    background:#c39005 url("assets/images/almond.png")no-repeat 90% 50%/15%;
     color: #FFF;
 }
-
 
 /*FOOTER*/
-
 footer {
     height: 7%;
     width: 100%;
     background-color: #df5277;
-    font-size: 10px;
+    font-size: 0.625em;
     color: #fff;
 }
-
 footer div {
     display: inline-block;
     width: 100%;
 }
-
 footer p {
     text-align: center;
 }
-
 .contacts {
     list-style: none;
     display: inline-block;
@@ -292,32 +212,26 @@ footer p {
     margin:15px 0;
     text-align: center;
 }
-
 .contacts li {
     display: inline-block;
     padding-left: 30px;
     padding-right: 40px;
     margin-right: 20px;
 }
-
 .contacts li:last-child {
     padding-right: 80px;
 }
-
-
 #phone {
-    background-image: url("assets/images/phone.png");
-    background-repeat: no-repeat;
-
+    background: url("assets/images/phone.png") no-repeat;
 }
 
 #email {
-    background-image: url("assets/images/mail.png");
-    background-repeat: no-repeat;
+    background: url("assets/images/mail.png") no-repeat;
 }
-
 #socialMedia {
     background-image: url("assets/images/facebook.png"),url("assets/images/twitter.png");
-    background-position: right;
+    background-position: 70%, right;
     background-repeat: no-repeat, no-repeat;
 }
+
+/*What is the best way to scale my text so that it doesnt overflow it parent div?*/
