@@ -82,7 +82,6 @@ header {
     width: 25%;
     height: 100%;
 }
-
 #mainContent aside img {
     position: relative;
     max-width: 80%;
@@ -265,7 +264,7 @@ td {
 }
 
 
-
+/*FOOTER*/
 
 footer {
     height: 7%;
