@@ -209,6 +209,18 @@ td {
 }
 
 
+/*GIFTS AND PARTIES PAGE*/
+#giftsPartiesMainContent {
+    background: url("assets/images/gifts-parties-background.png")no-repeat right/contain;
+}
+
+#giftsPartiesMainContent > article span {
+    color: #df5277;
+}
+#giftsPartiesMainContent .giftBoxInfo {
+    width: 50%;
+    height: auto;
+}
 
 /*FOOTER*/
 #footerContent {
