@@ -273,3 +273,67 @@ ul.contacts {
 }
 
 /*What is the best way to scale my text so that it doesnt overflow it parent div?*/
+
+@media screen and (max-width: 375px) {
+    /*RESPONSIVE NAV*/
+    .logo {
+        display: block;
+        margin: 0 auto;
+        padding: 2% 0;
+        position: static;
+        transform: translateY(0);
+    }
+    .nav {
+        display: block;
+        position: relative;
+        top: 0;
+        right: 0;
+        width: 90%;
+        margin: 0 auto;
+        text-align: left;
+    }
+    .nav li {
+        margin-right: 3%;
+        text-align: center;
+    }
+    .nav li a {
+        font-size: 2.8vw;
+    }
+    /*MBOUTIQUE HOURS ARTICLE*/
+    section article {
+        margin: 0 7%;
+    }
+    #mboutiqueHours ul  {
+        list-style: none;
+        padding: 0;
+    }
+    /*CONTACT FORM*/
+    #contactForm input:not(:last-child),textarea   {
+        width: 100%;
+        border-style: none;
+        background-color: #f5f5f5;
+        color: #6a6969;
+        padding: 6px 0;
+        margin-top: 2%;
+    }
+    #contactForm div {
+        position: relative;
+    }
+    #contactForm div > input {
+        text-transform: uppercase;
+        border-style: none;
+        background-color: #f5f5f5;
+        display: inline-block;
+        float: right;
+        width: 50%;padding: 6px 0;
+        margin: 2% 0 5%;
+
+    }
+    .asideImage {
+        display: none;
+    }
+
+    footer {
+        clear: both;
+    }
+}
