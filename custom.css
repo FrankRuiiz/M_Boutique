@@ -1,0 +1,58 @@
+
+/*Global*/
+
+.container {
+    max-width: 1000px;
+}
+
+/*Navigation Bar*/
+#nav {
+    min-height: 72px;
+    padding-bottom: .5em;
+    background-color: #fffabe
+}
+
+.logo {
+    position: relative;
+    left: 3%;
+}
+
+#nav > div {
+    height: 100%;
+    position: relative;
+    margin-top: 1.6em;
+}
+
+#nav div a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: #515151;
+    padding: 3%;
+    position: relative;
+    top: 25%;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#nav div a:hover {
+    color: #d42551;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+/*Media Queries*/
+
+@media screen and (max-width: 530px) {
+    #nav div a {
+        font-size: .65em;
+    }
+
+    #nav div {
+        margin-top: .5em;
+    }
+}
