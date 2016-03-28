@@ -8,10 +8,15 @@
           integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <!--Custom CSS Styles-->
     <link rel="stylesheet" href="custom.css">
+    <!--Angular-->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.min.js" type="text/javascript"></script>
+    <!--Script for routerApp-->
+    <script src="app.js" type="text/javascript"></script>
     <title>Welcome</title>
 </head>
-<body>
-    <!--Container-->
+<body ng-app="routerApp">
+    <!--Nav Container-->
     <div class="container">
         <!--Navigation Bar    -->
         <div id="nav" class="row beige_bg">
@@ -20,14 +25,20 @@
             </div>
             <div class="col-sm-9">
                 <div class="pull-right text-center">
-                    <a href="index.html">welcome</a>
-                    <a href="our_macarons.html">our macarons</a>
-                    <a href="gifts_parties.html">gifts &amp; parties</a>
-                    <a href="contact.html">contact</a>
+                    <a sref="welcome">welcome</a>
+                    <a sref="our_maarons">our macarons</a>
+                    <a sref="gifts_parties">gifts &amp; parties</a>
+                    <a sref="contact">contact</a>
                 </div>
             </div>
         </div>
         <!--End of Navigation Bar-->
+    </div>
+
+    <!--Main Content -->
+    <div class="container">
+        <!--This is where the content will be injected-->
+        <div ui-view></div>
     </div>
 
 
