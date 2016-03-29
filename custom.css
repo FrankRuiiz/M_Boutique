@@ -1,5 +1,8 @@
-
 /*Global*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 .container {
     max-width: 1000px;
@@ -29,7 +32,6 @@
 }
 
 #nav div a {
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
     color: #515151;
     padding: 3%;
@@ -54,7 +56,44 @@
     width: 100%;
 }
 
-/*Main Content*/
+/*****************Main Content********************/
+
+/*Welcome Page*/
+
+#welcome-content {
+    margin-top: 3em;
+}
+
+#welcome-content article {
+    color: #6a6969;
+}
+
+#welcome-content aside img {
+    padding: 4.5em 0 0 3em;
+}
+
+#welcome-content article h3 {
+    font-size: 1.25em;
+    padding: 1em 0;
+}
+
+#welcome-content article p {
+    font-size: 0.875em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -76,7 +115,7 @@ footer .row {
 footer .row img {
     padding-bottom: 1.5%;
     padding-left: 2%;
-    padding-right: 2%
+    padding-right: 2%;
     height: 100%;
     width: auto
 }
@@ -85,12 +124,12 @@ footer .row p {
     font-size: .80em
 }
 
-
 /*Media Queries*/
 
 @media screen and (max-width: 530px) {
     #nav div a {
-        font-size: .65em;
+        font-size: .55em;
+        padding: 1%;
     }
 
     #nav div {
