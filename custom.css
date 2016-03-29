@@ -6,7 +6,6 @@ body {
 
 .container {
     max-width: 1000px;
-    /*padding: 0;*/
 }
 
 /*Navigation Bar*/
@@ -58,11 +57,8 @@ body {
 
 /*Welcome Page*/
 
-#welcome-content {
+#welcome-content, #our_macarons-content {
     margin-top: 3em;
-}
-
-#welcome-content article {
     color: #6a6969;
 }
 
@@ -81,6 +77,12 @@ body {
 
 /*Our Macarons*/
 
+.our_macBg {
+    background: url("assets/images/our-macarons-background.png") no-repeat;
+    background-size: cover;
+    background-position: 50% 75%;
+    padding-bottom: 5em;
+}
 
 
 
@@ -135,4 +137,10 @@ footer .row p {
     #nav div {
         margin-top: .5em;
     }
+
+    .our_macBg {
+        background: none;
+    }
+
+
 }
