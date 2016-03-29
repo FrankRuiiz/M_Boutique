@@ -35,8 +35,6 @@ body {
     font-size: 1em;
     color: #515151;
     padding: 3%;
-    position: relative;
-    top: 25%;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -80,6 +78,8 @@ body {
 #welcome-content article p {
     font-size: 0.875em;
 }
+
+/*Our Macarons*/
 
 
 
