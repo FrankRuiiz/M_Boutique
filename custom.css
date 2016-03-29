@@ -8,6 +8,9 @@ body {
     max-width: 1000px;
 }
 
+#our_macarons-content, #welcome-content  {
+    margin: 0 1em;
+}
 /*Navigation Bar*/
 #nav {
     min-height: 72px;
@@ -107,7 +110,8 @@ footer {
     font-size: .85em;
     min-height: 80px;
     background-color: #df5277;
-    color: #FFF
+    color: #FFF;
+    margin-top: 4em;
 }
 
 footer .row {
