@@ -8,9 +8,10 @@ body {
     max-width: 1000px;
 }
 
-#our_macarons-content, #welcome-content  {
+#our_macarons-content, #welcome-content {
     margin: 0 1em;
 }
+
 /*Navigation Bar*/
 #nav {
     min-height: 72px;
@@ -87,22 +88,7 @@ body {
     padding-bottom: 5em;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*Gifts and Parties*/
 
 /*Footer*/
 
@@ -145,6 +131,5 @@ footer .row p {
     .our_macBg {
         background: none;
     }
-
 
 }
