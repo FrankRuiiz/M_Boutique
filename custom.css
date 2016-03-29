@@ -87,8 +87,11 @@ p, li {
 /*Gifts and Parties*/
 
 .gifts_partiesBg {
-    background: url("assets/images/gifts-parties-background.png")no-repeat right/contain;
+    background: url("assets/images/gifts-parties-background.png") no-repeat right/contain;
+}
 
+#gifts_parties-content article p span {
+    color: #df5277;
 }
 
 /*Footer*/
