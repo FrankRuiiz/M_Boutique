@@ -17,7 +17,7 @@ p, li {
     max-width: 1000px;
 }
 
-#our_macarons-content, #welcome-content, #gifts_parties-content {
+#our_macarons-content, #welcome-content, #gifts_parties-content, #contact-content {
     margin: 3em 1em 0;
     color: #6a6969;
 }
@@ -93,6 +93,10 @@ p, li {
 #gifts_parties-content article p span {
     color: #df5277;
 }
+
+/*Contact*/
+
+
 
 /*Footer*/
 
