@@ -3,6 +3,7 @@
 
 .container {
     max-width: 1000px;
+    padding: 0;
 }
 
 /*Navigation Bar*/
@@ -23,6 +24,10 @@
     margin-top: 1.6em;
 }
 
+#nav div:nth-child(2) > div {
+    width: 100%;
+}
+
 #nav div a {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
@@ -39,6 +44,15 @@
     text-decoration: none;
 }
 
+/*Hero Image*/
+
+.hero-image {
+    padding: 0;
+}
+
+.hero-image img {
+    width: 100%;
+}
 
 
 
