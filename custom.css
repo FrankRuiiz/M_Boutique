@@ -4,12 +4,22 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h3 {
+    font-size: 1.25em;
+    padding: 1em 0;
+}
+
+p, li {
+    font-size: 0.875em;
+}
+
 .container {
     max-width: 1000px;
 }
 
-#our_macarons-content, #welcome-content {
-    margin: 0 1em;
+#our_macarons-content, #welcome-content, #gifts_parties-content {
+    margin: 3em 1em 0;
+    color: #6a6969;
 }
 
 /*Navigation Bar*/
@@ -61,22 +71,8 @@ body {
 
 /*Welcome Page*/
 
-#welcome-content, #our_macarons-content {
-    margin-top: 3em;
-    color: #6a6969;
-}
-
 #welcome-content aside img {
     padding: 4.5em 0 0 3em;
-}
-
-#welcome-content article h3 {
-    font-size: 1.25em;
-    padding: 1em 0;
-}
-
-#welcome-content article p {
-    font-size: 0.875em;
 }
 
 /*Our Macarons*/
@@ -89,6 +85,11 @@ body {
 }
 
 /*Gifts and Parties*/
+
+.gifts_partiesBg {
+    background: url("assets/images/gifts-parties-background.png")no-repeat right/contain;
+
+}
 
 /*Footer*/
 
@@ -129,6 +130,10 @@ footer .row p {
     }
 
     .our_macBg {
+        background: none;
+    }
+
+    .gifts_partiesBg {
         background: none;
     }
 
