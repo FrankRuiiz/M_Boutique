@@ -3,7 +3,7 @@
 
 .container {
     max-width: 1000px;
-    padding: 0;
+    /*padding: 0;*/
 }
 
 /*Navigation Bar*/
@@ -54,9 +54,36 @@
     width: 100%;
 }
 
+/*Main Content*/
 
 
 
+
+
+/*Footer*/
+
+footer {
+    font-size: .85em;
+    min-height: 80px;
+    background-color: #df5277;
+    color: #FFF
+}
+
+footer .row {
+    padding-top: 1.5%;
+}
+
+footer .row img {
+    padding-bottom: 1.5%;
+    padding-left: 2%;
+    padding-right: 2%
+    height: 100%;
+    width: auto
+}
+
+footer .row p {
+    font-size: .80em
+}
 
 
 /*Media Queries*/
