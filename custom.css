@@ -23,6 +23,7 @@ p, li {
 }
 
 /*Navigation Bar*/
+
 #nav {
     min-height: 72px;
     padding-bottom: .5em;
@@ -96,7 +97,38 @@ p, li {
 
 /*Contact*/
 
+#contact-content article ul {
+    list-style: none;
+    padding: 0;
+}
 
+#contact-content article p:nth-of-type(3) {
+    color: #df5277;
+}
+
+#contact-content aside img {
+    padding-top: 25%;
+}
+
+#contactForm input:not(:last-child), textarea {
+    width: 100%;
+    border-style: none;
+    background-color: #f5f5f5;
+    color: #6a6969;
+    padding: .5em .5em;
+    margin-top: 2%;
+}
+
+#contactForm div > input {
+    text-transform: uppercase;
+    border-style: none;
+    background-color: #f5f5f5;
+    display: inline-block;
+    float: right;
+    width: 50%;
+    padding: .5em .5em;
+    margin: 2% 0 5%;
+}
 
 /*Footer*/
 
@@ -136,12 +168,7 @@ footer .row p {
         margin-top: .5em;
     }
 
-    .our_macBg {
+    .our_macBg, .gifts_partiesBg {
         background: none;
     }
-
-    .gifts_partiesBg {
-        background: none;
-    }
-
 }
