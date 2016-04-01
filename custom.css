@@ -1,0 +1,174 @@
+/*Global*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    font-size: 1.25em;
+    padding: 1em 0;
+}
+
+p, li {
+    font-size: 0.875em;
+}
+
+.container {
+    max-width: 1000px;
+}
+
+#our_macarons-content, #welcome-content, #gifts_parties-content, #contact-content {
+    margin: 3em 1em 0;
+    color: #6a6969;
+}
+
+/*Navigation Bar*/
+
+#nav {
+    min-height: 72px;
+    padding-bottom: .5em;
+    background-color: #fffabe
+}
+
+.logo {
+    position: relative;
+    left: 3%;
+}
+
+#nav > div {
+    height: 100%;
+    position: relative;
+    margin-top: 1.6em;
+}
+
+#nav div:nth-child(2) > div {
+    width: 100%;
+}
+
+#nav div a {
+    font-size: 1em;
+    color: #515151;
+    padding: 3%;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#nav div a:hover {
+    color: #d42551;
+    text-decoration: none;
+}
+
+/*Hero Image*/
+
+.hero-image {
+    padding: 0;
+}
+
+.hero-image img {
+    width: 100%;
+}
+
+/*****************Main Content********************/
+
+/*Welcome Page*/
+
+#welcome-content aside img {
+    padding: 4.5em 0 0 3em;
+}
+
+/*Our Macarons*/
+
+.our_macBg {
+    background: url("assets/images/our-macarons-background.png") no-repeat;
+    background-size: cover;
+    background-position: 50% 75%;
+    padding-bottom: 5em;
+}
+
+/*Gifts and Parties*/
+
+.gifts_partiesBg {
+    background: url("assets/images/gifts-parties-background.png") no-repeat right/contain;
+}
+
+#gifts_parties-content article p span {
+    color: #df5277;
+}
+
+/*Contact*/
+
+#contact-content article ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contact-content article p:nth-of-type(3) {
+    color: #df5277;
+}
+
+#contact-content aside img {
+    padding-top: 25%;
+}
+
+#contactForm input:not(:last-child), textarea {
+    width: 100%;
+    border-style: none;
+    background-color: #f5f5f5;
+    color: #6a6969;
+    padding: .5em .5em;
+    margin-top: 2%;
+}
+
+#contactForm div > input {
+    text-transform: uppercase;
+    border-style: none;
+    background-color: #f5f5f5;
+    display: inline-block;
+    float: right;
+    width: 50%;
+    padding: .5em .5em;
+    margin: 2% 0 5%;
+}
+
+/*Footer*/
+
+footer {
+    font-size: .85em;
+    min-height: 80px;
+    background-color: #df5277;
+    color: #FFF;
+    margin-top: 4em;
+}
+
+footer .row {
+    padding-top: 1.5%;
+}
+
+footer .row img {
+    padding-bottom: 1.5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    height: 100%;
+    width: auto
+}
+
+footer .row p {
+    font-size: .80em
+}
+
+/*Media Queries*/
+
+@media screen and (max-width: 530px) {
+    #nav div a {
+        font-size: .55em;
+        padding: 1%;
+    }
+
+    #nav div {
+        margin-top: .5em;
+    }
+
+    .our_macBg, .gifts_partiesBg {
+        background: none;
+    }
+}
