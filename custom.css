@@ -76,6 +76,30 @@ p, li {
     padding: 4.5em 0 0 3em;
 }
 
+#welcome-table.menu-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#welcome-table .item {
+    min-width: 140px;
+    margin-bottom: 0.5em;
+}
+
+#welcome-table .item ul {
+    list-style: none;
+    background-color: #fffabe;
+    margin: 0 .5em;
+    padding: 0.3em 0;
+}
+
+#welcome-table .item ul li {
+    padding: 0.5em 0.4em;
+    text-align: left;
+}
+
 /*Our Macarons*/
 
 .our_macBg {
