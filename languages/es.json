@@ -52,5 +52,15 @@
     "T3": "Torre de macarrón para fiestas",
     "P3": "Nuestra torre de 5 niveles se convierte en la pieza central de cualquier evento especial o celebración privada , que presenta elegantemente su selección única de sesenta macarons .",
     "TOWER": "torre de 60 macarons - &dollar;120"
+  },
+  "CON": {
+    "T1": "Visit us&excl;",
+    "M-F": "Monday - Friday | 10am - 9pm",
+    "SAT": "Saturday | 10am - 8pm",
+    "SUN": "Sundsy | 11am - 7pm",
+    "HOL": "Closed Thanksgiving Day, Christmas Day, and Easter Day",
+    "P1": "Send your questions, comments and flavor suggestions or place an order&excl;",
+    "T2": "Contact Form",
+    "NAME": "Nombre"
   }
 }

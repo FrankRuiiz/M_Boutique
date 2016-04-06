@@ -54,6 +54,18 @@
     "TOWER": "tower of 60 macarons - &dollar;120"
   },
   "CON": {
-
+    "T1": "Visit us&excl;",
+    "M-F": "Monday - Friday | 10am - 9pm",
+    "SAT": "Saturday | 10am - 8pm",
+    "SUN": "Sundsy | 11am - 7pm",
+    "HOL": "Closed Thanksgiving Day, Christmas Day, and Easter Day",
+    "P1": "Send your questions, comments and flavor suggestions or place an order&excl;",
+    "T2": "Contact Form",
+    "NAME": "Name",
+    "EMAIL": "Email",
+    "PHONE": "Phone",
+    "SUB": "Subject",
+    "MSG": "Message",
+    "SEND": "Send"
   }
 }

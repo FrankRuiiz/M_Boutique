@@ -10,12 +10,12 @@
 <!--Contact Page Main Content-->
 <section id="contact-content" class="row">
     <article class="col-sm-4">
-        <h3>Visit us!</h3>
+        <h3 translate="CON.T1"></h3>
         <ul>
-            <li>Monday - Friday | 10am - 9pm</li>
-            <li>Saturday | 10am - 8pm</li>
-            <li>Sundsy | 11am - 7pm</li>
-            <li>Closed Thanksgiving Day, Christmas Day, and Easter Day</li>
+            <li translate="CON.M-F"></li>
+            <li translate="CON.SAT"></li>
+            <li translate="CON.SUN"></li>
+            <li translate="CON.HOL"></li>
         </ul>
         <p>
             1625 Post Str<br>
@@ -23,18 +23,18 @@
         </p>
         <p>949.800-31111</p>
         <p>order@mboutique.com</p>
-        <p>Send your questions, comments and flavor suggestions or place an order!</p>
+        <p translate="CON.P1"></p>
     </article>
     <article class="col-sm-4" id="contactForm">
-        <h3>Contact Form</h3>
+        <h3 translate="CON.T2"></h3>
         <form action="#">
-            <input type="text" placeholder="Name"><br>
-            <input type="text" placeholder="Email"><br>
-            <input type="text" placeholder="Phone"><br>
-            <input type="text" placeholder="Subject"><br>
-            <textarea rows="3" placeholder="Message"></textarea><br>
+            <input type="text" placeholder="{{ 'CON.NAME' | translate }}"><br>
+            <input type="text" placeholder="{{ 'CON.EMAIL' | translate }}"><br>
+            <input type="text" placeholder="{{ 'CON.PHONE' | translate }}"><br>
+            <input type="text" placeholder="{{ 'CON.SUB' | translate }}"><br>
+            <textarea rows="3" placeholder="{{ 'CON.MSG' | translate }}"></textarea><br>
             <div>
-                <input type="button" value="Send">
+                <input type="button" value="{{ 'CON.SEND' | translate }}">
             </div>
         </form>
     </article>
