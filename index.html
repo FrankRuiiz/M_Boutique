@@ -7,15 +7,19 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
           integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <!--Custom CSS Styles-->
-    <link rel="stylesheet" href="custom.css">
+    <link rel="stylesheet" href="custom.css" type="text/css">
     <!--Angular-->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-translate/2.10.0/angular-translate.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-sanitize/1.5.3/angular-sanitize.js"></script>-->
     <!--Script for routerApp-->
     <script src="routingApp.js" type="text/javascript"></script>
+    <!--Script for translateApp-->
+    <!--<script src="translateApp.js" type="text/javascript"></script>-->
     <title>Welcome</title>
 </head>
-<body ng-app="mboutiqueRoutApp">
+<body ng-app="mboutiqueApp">
 
 <!--Nav Container-->
 <header class="container">
@@ -26,10 +30,12 @@
         </div>
         <div class="col-sm-9">
             <div class="pull-right text-center">
-                <a ui-sref="welcome">welcome</a>
+                <a ui-sref="welcome" translate="WELCOME_LINK"></a>
                 <a ui-sref="our_macarons">our macarons</a>
                 <a ui-sref="gifts_parties">gifts &amp; parties</a>
                 <a ui-sref="contact">contact</a>
+                <!--<button type="button" class="btn btn-info active" ng-click="changeLanguage('en')">ENG</button>-->
+                <!--<button type="button" class="btn btn-info active" ng-click="changeLanguage('es')">ESP</button>-->
             </div>
         </div>
     </div>

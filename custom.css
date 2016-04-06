@@ -2,6 +2,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    color: #6a6969;
 }
 
 h3 {
@@ -19,7 +20,6 @@ p, li {
 
 #our_macarons-content, #welcome-content, #gifts_parties-content, #contact-content {
     margin: 3em 1em 0;
-    color: #6a6969;
 }
 
 /*Navigation Bar*/
@@ -74,6 +74,91 @@ p, li {
 
 #welcome-content aside img {
     padding: 4.5em 0 0 3em;
+}
+
+#welcome-table.menu-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#welcome-table .item {
+    min-width: 140px;
+    margin-bottom: 0.5em;
+}
+
+#welcome-table .item ul {
+    list-style: none;
+    background-color: #fffabe;
+    margin: 0 .5em;
+    padding: 0;
+}
+
+#welcome-table .item ul li:first-child {
+    font-size: 0.875em;
+}
+
+#welcome-table .item ul li {
+    padding: 0.5em 0.4em;
+    text-align: left;
+    font-size: 0.75em;
+}
+
+/*MACARON FLAVOR CLASSES*/
+/*First Row*/
+.chocolate {
+    background: #fffabe url("assets/images/chocolate.png") no-repeat 90% 50%/15%;
+}
+
+.violetCassis {
+    background:#fffabe url("assets/images/violet-cassis.png")no-repeat 90% 50%/15%;
+}
+
+.passionFruit {
+    background:#fffabe url("assets/images/passion-fruit.png")no-repeat 90% 50%/15%;
+}
+
+.coffee {
+    background:#fffabe url("assets/images/coffee.png")no-repeat 90% 50%/15%;
+}
+
+.raspbery {
+    background:#fffabe url("assets/images/raspbery.png")no-repeat 90% 50%/15%;
+}
+
+.rose {
+    background:#fffabe url("assets/images/rose.png")no-repeat 90% 50%/15%;
+}
+
+.carmel {
+    background:#fffabe url("assets/images/caramel.png")no-repeat 90% 50%/15%;
+}
+/*Second Row*/
+.coconut {
+    background:#824603 url("assets/images/coconut.png")no-repeat 90% 50%/15%;
+    color: #FFF;
+}
+.greenTea {
+    background:#fffabe url("assets/images/green-tea.png")no-repeat 90% 50%/15%;
+}
+.vanilla {
+    background:#df5277 url("assets/images/vanilla.png")no-repeat 90% 50%/15%;
+    color: #FFF;
+}
+.pistachio {
+    background:#fffabe url("assets/images/pistachio.png")no-repeat 90% 50%/15%;
+}
+.lemon {
+    background:#a2304e url("assets/images/lemon.png")no-repeat 90% 50%/15%;
+    color: #FFF;
+}
+.tiffanyBlue {
+    background:#fffabe url("assets/images/tiffany-blue.png")no-repeat 90% 50%/15%;
+}
+.almond {
+    background:#c39005 url("assets/images/almond.png")no-repeat 90% 50%/15%;
+    color: #FFF;
 }
 
 /*Our Macarons*/
