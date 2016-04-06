@@ -4,15 +4,25 @@
 
 
 // Declaration of the Angular App
-var mboutiqueRoutApp = angular.module('mboutiqueRoutApp', ['ui.router']);
+var mboutiqueApp = angular.module('mboutiqueApp', ['ui.router', 'pascalprecht.translate'])
 
-mboutiqueRoutApp.config(function($stateProvider, $urlRouterProvider) {
+    .config(function ($translateProvider) {
+        $translateProvider.translations('en', {
+            WELCOME_LINK: 'welcome',
+            OUR_MAC_LINK: 'our macarons',
+
+        });
+        $translateProvider.preferredLanguage('en');
+    })
+
+
+    .config(function ($stateProvider, $urlRouterProvider) {
     //Default Route
     $urlRouterProvider.otherwise('/welcome');
 
     //This is where routing is set for the nav bar
     $stateProvider
-        // Welcome state
+    // Welcome state
         .state('welcome', {
             url: '/welcome',
             templateUrl: 'templates/welcome_template.html'
@@ -32,4 +42,6 @@ mboutiqueRoutApp.config(function($stateProvider, $urlRouterProvider) {
             url: '/contact',
             templateUrl: 'templates/contact_template.html'
         });
-});
+    });
+
+
