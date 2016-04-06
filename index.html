@@ -11,6 +11,7 @@
     <!--Angular-->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-translate/2.10.0/angular-translate.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-translate/2.10.0/angular-translate-loader-static-files/angular-translate-loader-static-files.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>
     <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-sanitize/1.5.3/angular-sanitize.js"></script>-->
     <!--Script for routerApp-->
@@ -30,10 +31,10 @@
         </div>
         <div class="col-sm-9">
             <div class="pull-right text-center">
-                <a ui-sref="welcome" translate="WELCOME_LINK"></a>
-                <a ui-sref="our_macarons" translate="OUR_MAC_LINK"></a>
-                <a ui-sref="gifts_parties" translate="GIFTS_PARTIES">gifts &amp; parties</a>
-                <a ui-sref="contact" translate="CONTACT">contact</a>
+                <a ui-sref="welcome" translate="NAV.WELCOME_LINK"></a>
+                <a ui-sref="our_macarons" translate="NAV.OUR_MAC_LINK"></a>
+                <a ui-sref="gifts_parties" translate="NAV.GIFTS_PARTIES">gifts &amp; parties</a>
+                <a ui-sref="contact" translate="NAV.CONTACT">contact</a>
                 <div ng-controller="translateController">
                     <button ng-click="changeLanguage('es')">Spanish</button>
                     <button ng-click="changeLanguage('en')">English</button>
