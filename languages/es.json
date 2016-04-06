@@ -19,5 +19,24 @@
     "FRI": "Viernes",
     "SAT": "Sabado",
     "SUN": "Domingo"
+  },
+  "OM": {
+    "T1": "Nuestros macarons están recién hechas a mano",
+    "P1": "Los colores vivos de nuestros macarons únicas reflejar los sabores y esencias naturales que infunden el relleno ganache de estas deliciosas galletas de almendra - cada uno tiene su propia personalidad , y todos ellos están hechos para saborear por su delicadeza y su carácter único.",
+    "T2": "Clásicos",
+    "CHOC": "chocolate del Caribe",
+    "COCO": "coco",
+    "GT": "té verde",
+    "CAFE": "café de colombia",
+    "LEM": "limón",
+    "VAN": "vainilla madigascar",
+    "ROSE": "rosa",
+    "RASP": "raspbery",
+    "TIFF": "azul tiffany",
+    "PIST": "pistacho de sicilia",
+    "ALMD": "almendra dulce",
+    "VIOL": "grosella negra púrpura",
+    "CARM": "carmel salada",
+    "P2": "Después de la compra se recomienda mantener macarons en el refrigerador , dejar que alcancen la temperatura ambiente antes de servir - unos 10 minutos. Para un mejor degustación , nuestros macarons deben consumirse dentro de los 3 días."
   }
 }
