@@ -7,12 +7,19 @@
 var mboutiqueApp = angular.module('mboutiqueApp', ['ui.router', 'pascalprecht.translate'])
 
     .config(function ($translateProvider) {
-        $translateProvider.translations('en', {
-            WELCOME_LINK: 'welcome',
-            OUR_MAC_LINK: 'our macarons',
-
-        });
         $translateProvider.preferredLanguage('en');
+
+        $translateProvider.useStaticFilesLoader({
+            prefix: 'languages/',
+            suffix: '.json'
+        });
+    })
+
+
+    .controller('translateController', function($translate, $scope){
+        $scope.changeLanguage = function(langKey) {
+            $translate.use(langKey);
+        };
     })
 
 
@@ -20,7 +27,7 @@ var mboutiqueApp = angular.module('mboutiqueApp', ['ui.router', 'pascalprecht.tr
     //Default Route
     $urlRouterProvider.otherwise('/welcome');
 
-    //This is where routing is set for the nav bar
+    //Routing is set here
     $stateProvider
     // Welcome state
         .state('welcome', {

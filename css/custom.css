@@ -118,63 +118,72 @@ p, li {
 /*MACARON FLAVOR CLASSES*/
 /*First Row*/
 .chocolate {
-    background: #fffabe url("assets/images/chocolate.png") no-repeat 90% 50%/15%;
+    background: #fffabe url("../assets/images/chocolate.png") no-repeat 90% 50%/15%;
 }
 
 .violetCassis {
-    background:#fffabe url("assets/images/violet-cassis.png")no-repeat 90% 50%/15%;
+    background: #fffabe url("../assets/images/violet-cassis.png") no-repeat 90% 50%/15%;
 }
 
 .passionFruit {
-    background:#fffabe url("assets/images/passion-fruit.png")no-repeat 90% 50%/15%;
+    background: #fffabe url("../assets/images/passion-fruit.png") no-repeat 90% 50%/15%;
 }
 
 .coffee {
-    background:#fffabe url("assets/images/coffee.png")no-repeat 90% 50%/15%;
+    background: #fffabe url("../assets/images/coffee.png") no-repeat 90% 50%/15%;
 }
 
 .raspbery {
-    background:#fffabe url("assets/images/raspbery.png")no-repeat 90% 50%/15%;
+    background: #fffabe url("../assets/images/raspbery.png") no-repeat 90% 50%/15%;
 }
 
 .rose {
-    background:#fffabe url("assets/images/rose.png")no-repeat 90% 50%/15%;
+    background: #fffabe url("../assets/images/rose.png") no-repeat 90% 50%/15%;
 }
 
 .carmel {
-    background:#fffabe url("assets/images/caramel.png")no-repeat 90% 50%/15%;
+    background: #fffabe url("../assets/images/caramel.png") no-repeat 90% 50%/15%;
 }
+
 /*Second Row*/
 .coconut {
-    background:#824603 url("assets/images/coconut.png")no-repeat 90% 50%/15%;
+    background: #824603 url("../assets/images/coconut.png") no-repeat 90% 50%/15%;
     color: #FFF;
 }
+
 .greenTea {
-    background:#fffabe url("assets/images/green-tea.png")no-repeat 90% 50%/15%;
+    background: #fffabe url("../assets/images/green-tea.png") no-repeat 90% 50%/15%;
 }
+
 .vanilla {
-    background:#df5277 url("assets/images/vanilla.png")no-repeat 90% 50%/15%;
+    background: #df5277 url("../assets/images/vanilla.png") no-repeat 90% 50%/15%;
     color: #FFF;
 }
+
 .pistachio {
-    background:#fffabe url("assets/images/pistachio.png")no-repeat 90% 50%/15%;
+    background: #fffabe url("../assets/images/pistachio.png") no-repeat 90% 50%/15%;
 }
+
 .lemon {
-    background:#a2304e url("assets/images/lemon.png")no-repeat 90% 50%/15%;
+    background: #a2304e url("../assets/images/lemon.png") no-repeat 90% 50%/15%;
     color: #FFF;
 }
+
 .tiffanyBlue {
-    background:#fffabe url("assets/images/tiffany-blue.png")no-repeat 90% 50%/15%;
+    background: #fffabe url("../assets/images/tiffany-blue.png") no-repeat 90% 50%/15%;
 }
+
 .almond {
-    background:#c39005 url("assets/images/almond.png")no-repeat 90% 50%/15%;
+    background: #c39005 url("../assets/images/almond.png") no-repeat 90% 50%/15%;
     color: #FFF;
 }
 
 /*Our Macarons*/
 
 .our_macBg {
-    background: url("assets/images/our-macarons-background.png") no-repeat;
+    background: url("../assets/images/our-macarons-background.png") no-repeat;
+    width: 1000px;
+    height: 600px;
     background-size: cover;
     background-position: 50% 75%;
     padding-bottom: 5em;
@@ -183,7 +192,7 @@ p, li {
 /*Gifts and Parties*/
 
 .gifts_partiesBg {
-    background: url("assets/images/gifts-parties-background.png") no-repeat right/contain;
+    background: url("../assets/images/gifts-parties-background.png") no-repeat right/contain;
 }
 
 #gifts_parties-content article p span {
