@@ -38,5 +38,22 @@
     "VIOL": "violet cassis",
     "CARM": "salted carmel",
     "P2": "After purchase we recommend keeping macarons in the refrigerator, let them come to room temperature before serving - about 10 minutes. For best degustation, our macarons should be consumed within 3 days."
+  },
+  "GNP": {
+    "T1": "Let's eat macarons&excl;",
+    "P1": "We make easy to share la passion du macaron with your friends, family and colleagues. Choos from our array of premium gift options, or we can create a custom solution. Contact us when you need help planning your celebration&excl;",
+    "T2": "Gift boxes",
+    "P2": "Our signature boxes make macarons the perfect gift for any location.",
+    "6MAC": "gift box of 6 macarons in raspberry white - &dollar;10",
+    "12MAC": "gift box of 12 macarons in white, pistachio, or violet - &dollar;20",
+    "24MAC": "gift box of 24 macarons in violet - &dollar;40",
+    "36MAC": "gift box of 36 macarons in silver - &dollar;60",
+    "60MAC": "gift box &agrave; la ronde of 60 macarons in violet or sliver - &dollar;120",
+    "T3": "Party tower",
+    "P3": "Our 5-tiered tower becomes the centerpiece of any special event or private celebration, elegantly presenting your unique selection of sixty macarons.",
+    "TOWER": "tower of 60 macarons - &dollar;120"
+  },
+  "CON": {
+
   }
 }
