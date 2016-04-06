@@ -31,11 +31,13 @@
         <div class="col-sm-9">
             <div class="pull-right text-center">
                 <a ui-sref="welcome" translate="WELCOME_LINK"></a>
-                <a ui-sref="our_macarons">our macarons</a>
-                <a ui-sref="gifts_parties">gifts &amp; parties</a>
-                <a ui-sref="contact">contact</a>
-                <!--<button type="button" class="btn btn-info active" ng-click="changeLanguage('en')">ENG</button>-->
-                <!--<button type="button" class="btn btn-info active" ng-click="changeLanguage('es')">ESP</button>-->
+                <a ui-sref="our_macarons" translate="OUR_MAC_LINK"></a>
+                <a ui-sref="gifts_parties" translate="GIFTS_PARTIES">gifts &amp; parties</a>
+                <a ui-sref="contact" translate="CONTACT">contact</a>
+                <div ng-controller="translateController">
+                    <button ng-click="changeLanguage('es')">Spanish</button>
+                    <button ng-click="changeLanguage('en')">English</button>
+                </div>
             </div>
         </div>
     </div>

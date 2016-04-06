@@ -7,12 +7,31 @@
 var mboutiqueApp = angular.module('mboutiqueApp', ['ui.router', 'pascalprecht.translate'])
 
     .config(function ($translateProvider) {
-        $translateProvider.translations('en', {
-            WELCOME_LINK: 'welcome',
-            OUR_MAC_LINK: 'our macarons',
-
-        });
         $translateProvider.preferredLanguage('en');
+
+        $translateProvider
+            // English translation table
+            .translations('en', {
+            //Nav bar
+                WELCOME_LINK: 'welcome',
+                OUR_MAC_LINK: 'our macarons',
+                GIFTS_PARTIES: 'gifts &amp; parties',
+                CONTACT: 'contact'
+            })
+            // Spanish translation table
+            .translations('es', {
+                WELCOME_LINK: 'bienvenido',
+                OUR_MAC_LINK: 'nuestros macarons',
+                GIFTS_PARTIES: 'regalos &amp; fiestas',
+                CONTACT: 'contacto'
+            });
+
+    })
+
+    .controller('translateController', function($translate, $scope){
+        $scope.changeLanguage = function(langKey) {
+            $translate.use(langKey);
+        };
     })
 
 
