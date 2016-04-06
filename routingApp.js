@@ -27,7 +27,7 @@ var mboutiqueApp = angular.module('mboutiqueApp', ['ui.router', 'pascalprecht.tr
     //Default Route
     $urlRouterProvider.otherwise('/welcome');
 
-    //This is where routing is set for the nav bar
+    //Routing is set here
     $stateProvider
     // Welcome state
         .state('welcome', {

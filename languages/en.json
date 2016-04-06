@@ -18,7 +18,21 @@
     "THUR": "Thursday",
     "FRI": "Friday",
     "SAT": "Saturday",
-    "SUN": "Sunday"
+    "SUN": "Sunday",
+    "CHOC": "chocolate",
+    "COCO": "coconut",
+    "VIOL": "violet cassis",
+    "GT": "green tea",
+    "PF": "passion fruit",
+    "VAN": "vanilla",
+    "CAFE": "coffee",
+    "PIST": "pistachio",
+    "RASP": "raspberry",
+    "LEM": "lemon",
+    "ROSE": "rose",
+    "TIFF": "tiffany blue",
+    "CARM": "carmel",
+    "ALMD": "almond"
   },
   "OM": {
     "T1": "Our macarons are freshly made by hand",
@@ -31,7 +45,7 @@
     "LEM": "lemon",
     "VAN": "madigascar vanilla",
     "ROSE": "rose",
-    "RASP": "raspbery",
+    "RASP": "raspberry",
     "TIFF": "tiffany blue",
     "PIST": "sicilian pistachio",
     "ALMD": "sweet wedding almond",
@@ -67,5 +81,9 @@
     "SUB": "Subject",
     "MSG": "Message",
     "SEND": "Send"
+  },
+  "FTR": {
+    "FOLLOW": "Follow us",
+    "COPY": "Copyright &copy;2014 MBoutique. All rights reserved."
   }
 }

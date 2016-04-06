@@ -2,7 +2,7 @@
   "NAV": {
     "WELCOME_LINK": "bienvenido",
     "OUR_MAC_LINK": "macarons",
-    "GIFTS_PARTIES": "regalos &amp; fiestas",
+    "GIFTS_PARTIES": "regalos y fiestas",
     "CONTACT": "contacto"
   },
   "HOME": {
@@ -18,7 +18,21 @@
     "THUR": "Jueves",
     "FRI": "Viernes",
     "SAT": "Sabado",
-    "SUN": "Domingo"
+    "SUN": "Domingo",
+    "CHOC": "chocolate",
+    "COCO": "coco",
+    "VIOL": "grosella negra púrpura",
+    "GT": "té verde",
+    "PF": "maracuyá",
+    "VAN": "vainilla",
+    "CAFE": "café",
+    "PIST": "pistacho",
+    "RASP": "frambuesa",
+    "LEM": "limón",
+    "ROSE": "rosa",
+    "TIFF": "azul tiffany",
+    "CARM": "carmel",
+    "ALMD": "almendra"
   },
   "OM": {
     "T1": "Nuestros macarons están recién hechas a mano",
@@ -31,7 +45,7 @@
     "LEM": "limón",
     "VAN": "vainilla madigascar",
     "ROSE": "rosa",
-    "RASP": "raspbery",
+    "RASP": "frambuesa",
     "TIFF": "azul tiffany",
     "PIST": "pistacho de sicilia",
     "ALMD": "almendra dulce",
@@ -54,13 +68,22 @@
     "TOWER": "torre de 60 macarons - &dollar;120"
   },
   "CON": {
-    "T1": "Visit us&excl;",
-    "M-F": "Monday - Friday | 10am - 9pm",
-    "SAT": "Saturday | 10am - 8pm",
-    "SUN": "Sundsy | 11am - 7pm",
-    "HOL": "Closed Thanksgiving Day, Christmas Day, and Easter Day",
-    "P1": "Send your questions, comments and flavor suggestions or place an order&excl;",
-    "T2": "Contact Form",
-    "NAME": "Nombre"
+    "T1": "Visítanos&excl;",
+    "M-F": "Lunes - Viernes | 10am - 9pm",
+    "SAT": "Sábado | 10am - 8pm",
+    "SUN": "Domingo | 11am - 7pm",
+    "HOL": "Cerrado el Día de Acción de Gracias , el día de Navidad y el día de Pascua",
+    "P1": "Envíe sus preguntas , comentarios y sugerencias de sabor o hacer un pedido&excl;",
+    "T2": "Formulario de contacto",
+    "NAME": "Nombre",
+    "EMAIL": "Email",
+    "PHONE": "Teléfono",
+    "SUB": "Tema",
+    "MSG": "Mensaje",
+    "SEND": "Enviar"
+  },
+  "FTR": {
+    "FOLLOW": "Síguenos",
+    "COPY": "Derechos de autor &copy;2014 MBoutique . Todos los derechos reservados."
   }
 }

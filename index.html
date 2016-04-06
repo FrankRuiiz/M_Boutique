@@ -8,7 +8,7 @@
           integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <!--Custom CSS Styles-->
     <link rel="stylesheet" href="custom.css" type="text/css">
-    <!--Angular-->
+    <!--Angular CDNs-->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-translate/2.10.0/angular-translate.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-translate/2.10.0/angular-translate-loader-static-files/angular-translate-loader-static-files.js"></script>
@@ -20,8 +20,17 @@
     <!--<script src="translateApp.js" type="text/javascript"></script>-->
     <title>Welcome</title>
 </head>
-<body ng-app="mboutiqueApp">
-
+<body ng-app="mboutiqueApp" ng-controller="translateController">
+<div id="lang" class="container">
+    <div class="dropdown pull-right">
+        <button class="btn btn-sm dropdown-toggle" type="button" data-toggle="dropdown">Lang
+            <span class="caret"></span></button>
+        <ul class="dropdown-menu">
+            <li><a ng-click="changeLanguage('en')">English</a></li>
+            <li><a ng-click="changeLanguage('es')">Spanish</a></li>
+        </ul>
+    </div>
+</div>
 <!--Nav Container-->
 <header class="container">
     <!--Navigation Bar-->
@@ -35,16 +44,13 @@
                 <a ui-sref="our_macarons" translate="NAV.OUR_MAC_LINK"></a>
                 <a ui-sref="gifts_parties" translate="NAV.GIFTS_PARTIES">gifts &amp; parties</a>
                 <a ui-sref="contact" translate="NAV.CONTACT">contact</a>
-                <div ng-controller="translateController">
-                    <button ng-click="changeLanguage('es')">Spanish</button>
-                    <button ng-click="changeLanguage('en')">English</button>
-                </div>
+                    <!--<button ng-click="changeLanguage('es')">Spanish</button>-->
+                    <!--<button ng-click="changeLanguage('en')">English</button>-->
             </div>
         </div>
     </div>
     <!--End of Navigation Bar-->
 </header>
-
 <!--Main Content Container-->
 <section class="container">
     <!--This is where the content will be injected-->
@@ -64,15 +70,18 @@
             949.800.3111
         </div>
         <div class="col-sm-4 text-center">
-            Follow us
+            {{ 'FTR.FOLLOW' | translate }}
             <img src="assets/images/facebook.png" alt="Mboutique facebook link">
             <img src="assets/images/twitter.png" alt="Mboutique twitter link">
         </div>
     </div>
     <div class="row">
-        <p class="text-center">Copyright &copy;2014 MBoutique. All rights reserved.</p>
+        <p class="text-center" translate="FTR.COPY"></p>
     </div>
 </footer>
 <!--End of Footer section-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </body>
 </html>
