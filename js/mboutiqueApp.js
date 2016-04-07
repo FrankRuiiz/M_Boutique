@@ -10,6 +10,9 @@ var mboutiqueApp = angular.module('mboutiqueApp', ['ui.router', 'pascalprecht.tr
         // Sets the default language to English
         $translateProvider.preferredLanguage('en');
 
+        // Enable escaping of HTML
+        $translateProvider.useSanitizeValueStrategy('escapeParameters');
+
         // Static File Loader, used to grab language library from the languages directory
         $translateProvider.useStaticFilesLoader({
             prefix: 'languages/',
