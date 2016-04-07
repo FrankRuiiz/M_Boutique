@@ -11,6 +11,9 @@ The purpose of this project was to learn about web page structure and layout. Th
 * Angular-Translate (Spanish)
 
 ![alt text](assets/design_docs/welcome_exp.png "Welcome/Home page specifications")
-![alt text](assets/design_docs/our-macarons.png "Our Macarons page specifications")
-![alt text](assets/design_docs/gift-&-parties.png "Gift & Parties page specifications")
-![alt text](assets/design_docs/contact.png "Contact page specifications")
+
+![alt text](assets/design_docs/our-macarons_exp.png "Our Macarons page specifications")
+
+![alt text](assets/design_docs/gift-&-parties_exp.png "Gift & Parties page specifications")
+
+![alt text](assets/design_docs/contact_exp.png "Contact page specifications")
